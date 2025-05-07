@@ -1,0 +1,190 @@
+/* Retro-Modern Fusion with Chocolate Theme */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    scroll-padding-top: 70px;
+    background-color: #f8f3e9; /* Soft cream background */
+    font-family: 'Georgia', serif;
+    color: #4a3728; /* Dark chocolate text */
+  }
+  
+  .navbar {
+    background-color: #3c2a21 !important; /* Dark chocolate navbar */
+    border-bottom: 2px solid #d2b48c; /* Tan border */
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #e3d5c9 !important; /* Light cream text */
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #d2b48c !important; /* Tan hover */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #e3d5c9 !important;
+  }
+  
+  .retro-header {
+    background-color: #d2b48c; /* Tan background */
+    padding: 40px 0;
+    border-bottom: 3px solid #8b5a2b; /* Saddle brown border */
+  }
+  
+  .retro-img-container {
+    background-color: #ffffff;
+    border: 2px solid #8b5a2b; /* Saddle brown border */
+    padding: 8px;
+    box-shadow: 5px 5px 0 rgba(139, 90, 43, 0.5); /* Softened shadow */
+  }
+  
+  .retro-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  h1, h2 {
+    font-family: 'Courier New', monospace;
+    color: #3c2a21; /* Dark chocolate headers */
+    font-weight: bold;
+  }
+  
+  .feature-card {
+    background-color: #f1e3d3; /* Light tan */
+    border: 1px solid #d2b48c !important;
+    box-shadow: 3px 3px 0 rgba(139, 90, 43, 0.3);
+    transition: transform 0.2s;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .btn-custom {
+    background-color: #8b5a2b; /* Saddle brown */
+    color: #f8f3e9;
+    border: 2px solid #6b4423;
+    font-weight: bold;
+    padding: 8px 20px;
+    transition: all 0.3s;
+  }
+  
+  .btn-custom:hover {
+    background-color: #6b4423;
+    color: #f8f3e9;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  section {
+    margin-top: 30px;
+    padding: 30px 0;
+  }
+  
+  .table {
+    background-color: #f8f3e9;
+    color: #4a3728;
+    border: 2px solid #d2b48c !important;
+  }
+  
+  .table th {
+    background-color: #d2b48c;
+    color: #3c2a21;
+    border: 1px solid #8b5a2b !important;
+  }
+  
+  .table td {
+    border: 1px solid #d2b48c !important;
+  }
+  
+  .form-control, .form-select {
+    background-color: #f8f3e9;
+    color: #4a3728;
+    border: 2px solid #d2b48c;
+  }
+  
+  .form-control:focus, .form-select:focus {
+    background-color: #f8f3e9;
+    color: #4a3728;
+    border-color: #8b5a2b;
+    box-shadow: 0 0 5px rgba(139, 90, 43, 0.5);
+  }
+  
+  .form-label {
+    color: #3c2a21;
+    font-weight: 500;
+  }
+  
+  ::placeholder {
+    color: #b39b7d !important;
+    opacity: 0.8;
+  }
+  
+  footer {
+    background-color: #3c2a21 !important; /* Dark chocolate */
+    color: #e3d5c9 !important;
+    border-top: 2px solid #d2b48c;
+    letter-spacing: 1px;
+  }
+  
+  /* Vintage touch */
+  .vintage-border {
+    border: 1px solid #d2b48c;
+    border-radius: 0;
+    background-color: #f1e3d3;
+    padding: 15px;
+  }
+  
+  .subtitle {
+    font-family: 'Courier New', monospace;
+    color: #6b4423;
+    font-style: italic;
+  }
+  
+  /* Optional: Add a subtle pattern to the background for more texture */
+  .bg-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='20' height='20' fill='none' stroke='%23d2b48c' stroke-width='0.5' stroke-opacity='0.1'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+  }
+  
+  /* Additional: Retro-style button option */
+  .btn-retro {
+    background-color: #f1e3d3;
+    color: #3c2a21;
+    border: 2px solid #8b5a2b;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 0 #8b5a2b;
+    transition: all 0.2s;
+  }
+  
+  .btn-retro:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 #8b5a2b;
+    background-color: #e3d5c9;
+  }
+  
+  /* Media queries for better responsiveness */
+  @media (max-width: 768px) {
+    .retro-header {
+      padding: 30px 0;
+    }
+    
+    .retro-img-container {
+      max-width: 250px;
+      margin: 0 auto 20px;
+    }
+  }
+
+  
